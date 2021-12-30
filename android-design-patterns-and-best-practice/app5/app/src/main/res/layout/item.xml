@@ -20,6 +20,8 @@
         android:layout_height="@dimen/item_height"
         android:paddingBottom="24dp"
         android:paddingStart="24dp"
+        android:textSize="@dimen/item_text_size"
+        android:gravity="center_vertical"
         tools:text="placeholder"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintTop_toBottomOf="parent"
