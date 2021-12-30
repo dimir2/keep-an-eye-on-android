@@ -10,7 +10,7 @@
         android:id="@+id/card_view"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_width="400dp"
+        android:layout_width="480dp"
         android:layout_height="wrap_content" >
         <include
             android:id="@+id/card_content"
