@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin_end">24dp</dimen>
+
+    <dimen name="item_image_width">96dp</dimen>
+    <dimen name="item_image_height">64dp</dimen>
+    <dimen name="item_image_margin">12dp</dimen>
+
+    <dimen name="item_name_paddingBottom">12dp</dimen>
+    <dimen name="item_name_paddingStart">24dp</dimen>
+    <dimen name="item_name_textSize">16sp</dimen>
+
+    <dimen name="action_padding">12dp</dimen>
+    <dimen name="action_paddingStart">16dp</dimen>
+    <dimen name="action_paddingEnd">16dp</dimen>
+    <dimen name="action_marginEnd">12dp</dimen>
+    <dimen name="action_textSize">16sp</dimen>
+    <dimen name="action_minWidth">64dp</dimen>
+    <dimen name="action_add_textSize">16sp</dimen>
+    <dimen name="item_divider_height">1dp</dimen>
+</resources>

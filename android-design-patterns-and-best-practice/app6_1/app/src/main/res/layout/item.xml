@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/item_image"
+        android:layout_width="@dimen/item_image_width"
+        android:layout_height="@dimen/item_image_height"
+        android:layout_gravity="center_vertical|end"
+        android:layout_margin="@dimen/item_image_margin"
+        android:scaleType="fitXY"
+        tools:src="@tools:sample/avatars" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingStart="@dimen/item_name_paddingStart"
+        android:paddingBottom="@dimen/item_name_paddingBottom"
+        android:textSize="@dimen/item_name_textSize"
+        tools:text="@string/placeholder" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/action_add"
+        style="?attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|bottom"
+        android:layout_marginEnd="@dimen/action_marginEnd"
+        android:minWidth="@dimen/action_minWidth"
+        android:padding="@dimen/action_padding"
+        android:paddingStart="@dimen/item_name_paddingStart"
+        android:paddingEnd="@dimen/action_paddingEnd"
+        android:text="@string/action_add_text"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/action_add_textSize" />
+</androidx.appcompat.widget.LinearLayoutCompat>
