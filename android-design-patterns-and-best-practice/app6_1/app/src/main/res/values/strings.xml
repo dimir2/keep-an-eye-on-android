@@ -2,4 +2,8 @@
     <string name="app_name">app6_1</string>
     <string name="placeholder">placeholder</string>
     <string name="action_add_text">ADD</string>
+    <string name="checkout_dialog_title">Checkout</string>
+    <string name="checkout_dialog_message">Eat now or continue building your sandwich?</string>
+    <string name="action_ok_text">EAT NOW</string>
+    <string name="action_cancel_text">CONTINUE</string>
 </resources>

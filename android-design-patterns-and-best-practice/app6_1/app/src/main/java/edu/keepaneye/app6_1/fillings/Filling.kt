@@ -29,8 +29,8 @@ class Manchego : Cheese("Manchego", R.drawable.manchego, 125, true, 90)
 class Mozzarella : Cheese("Mozzarella", R.drawable.mozzarella, 105, true, 65)
 class Roquefort : Cheese("Roquefort", R.drawable.roquefort, 155, true, 150)
 
-fun buildCheeseList(): List<Cheese> {
-    return arrayListOf(
+fun buildCheeseList(): MutableList<Cheese> {
+    return mutableListOf(
         Brie(),
         Camembert(),
         Cheddar(),

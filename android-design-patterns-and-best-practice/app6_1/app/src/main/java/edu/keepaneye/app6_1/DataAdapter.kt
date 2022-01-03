@@ -8,7 +8,7 @@ import androidx.appcompat.widget.AppCompatTextView
 import androidx.recyclerview.widget.RecyclerView
 import edu.keepaneye.app6_1.fillings.Cheese
 
-class DataAdapter(val cheeses: List<Cheese>) : RecyclerView.Adapter<DataAdapter.ViewHolder>() {
+class DataAdapter(private val cheeses: MutableList<Cheese>) : RecyclerView.Adapter<DataAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item, parent, false))
@@ -16,11 +16,17 @@ class DataAdapter(val cheeses: List<Cheese>) : RecyclerView.Adapter<DataAdapter.
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.imageView.setImageResource(cheeses[position].image)
-        holder.textView.setText(cheeses[position].name)
+        holder.textView.text = cheeses[position].name
     }
 
     override fun getItemCount(): Int {
         return cheeses.size
+    }
+
+    fun removeItem(position :Int) {
+        cheeses.removeAt(position)
+        notifyItemRemoved(position)
+        notifyItemRangeChanged(position, cheeses.size)
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
