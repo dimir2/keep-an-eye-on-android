@@ -1,26 +1,26 @@
 package edu.keepaneye.uttermarvel.model
 
-data class ResponseDTO(
+data class CharactersResponse(
     var code: Int,
     var status: String,
-    var data: ResponseData
+    var data: CharactersResponseData
 )
 
-data class ResponseData(
+data class CharactersResponseData(
     var offset: Int,
     var limit: Int,
     var total: Int,
     var count: Int,
-    var results: MutableList<ResponseItem>
+    var results: MutableList<CharacterItem>
 )
 
-data class ResponseItem(
+data class CharacterItem(
     var id: Int,
     var title: String,
-    var thumbnail: ResponseThumbnail
+    var thumbnail: Thumbnail
 )
 
-class ResponseThumbnail(
+data class Thumbnail(
     var path: String,
     var extension: String
 )
