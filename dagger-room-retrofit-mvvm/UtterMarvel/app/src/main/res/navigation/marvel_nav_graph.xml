@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/marvel_nav_graph"
+    app:startDestination="@id/marvelCharactersFragment">
+
+    <fragment
+        android:id="@+id/marvelCharactersFragment"
+        android:name="edu.keepaneye.uttermarvel.ui.fragments.MarvelCharactersFragment"
+        android:label="MarvelCharactersFragment">
+        <action
+            android:id="@+id/action_marvelCharactersFragment_to_marvelCharacterItemFragment"
+            app:destination="@id/marvelCharacterItemFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/marvelComicsFragment"
+        android:name="edu.keepaneye.uttermarvel.ui.fragments.MarvelComicsFragment"
+        android:label="MarvelComicsFragment">
+        <action
+            android:id="@+id/action_marvelComicsFragment_to_marvelComicsItemFragment"
+            app:destination="@id/marvelComicsItemFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/marvelSavedCharactersFragment"
+        android:name="edu.keepaneye.uttermarvel.ui.fragments.MarvelSavedCharactersFragment"
+        android:label="MarvelSavedCharactersFragment">
+        <action
+            android:id="@+id/action_marvelSavedCharactersFragment_to_marvelCharacterItemFragment"
+            app:destination="@id/marvelCharacterItemFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/marvelSavedComicsFragment"
+        android:name="edu.keepaneye.uttermarvel.ui.fragments.MarvelSavedComicsFragment"
+        android:label="MarvelSavedComicsFragment">
+        <action
+            android:id="@+id/action_marvelSavedComicsFragment_to_marvelComicsItemFragment"
+            app:destination="@id/marvelComicsItemFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/marvelCharacterItemFragment"
+        android:name="edu.keepaneye.uttermarvel.ui.fragments.MarvelCharacterItemFragment"
+        android:label="MarvelCharacterItemFragment" />
+    <fragment
+        android:id="@+id/marvelComicsItemFragment"
+        android:name="edu.keepaneye.uttermarvel.ui.fragments.MarvelComicsItemFragment"
+        android:label="MarvelComicsItemFragment" />
+</navigation>

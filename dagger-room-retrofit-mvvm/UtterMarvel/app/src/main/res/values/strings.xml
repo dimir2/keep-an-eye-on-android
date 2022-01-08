@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Utter Marvel</string>
+    <string name="marvel_characters">Characters</string>
+    <string name="marvel_saved_characters">Saved Characters</string>
+    <string name="marvel_comics">Comics</string>
+    <string name="marvel_saved_comics">Saved Comics</string>
+</resources>

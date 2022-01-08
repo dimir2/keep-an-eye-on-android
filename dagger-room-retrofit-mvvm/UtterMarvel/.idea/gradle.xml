@@ -9,8 +9,8 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="modules">
           <set>
-            <option value="/mnt/data/keep-an-eye-on-android/android-design-patterns-and-best-practice/app7_1" />
-            <option value="/mnt/data/keep-an-eye-on-android/android-design-patterns-and-best-practice/app7_1/app" />
+            <option value="/mnt/data/keep-an-eye-on-android/dagger-room-retrofit-mvvm/UtterMarvel" />
+            <option value="/mnt/data/keep-an-eye-on-android/dagger-room-retrofit-mvvm/UtterMarvel/app" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

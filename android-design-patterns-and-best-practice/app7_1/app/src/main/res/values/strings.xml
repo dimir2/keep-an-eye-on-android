@@ -2,4 +2,10 @@
     <string name="app_name">app7_1</string>
     <string name="prime_text">"The 10000th prime number is: "</string>
     <string name="fib_text">"The 100th member of the Fibonacci sequence is: "</string>
+    <string name="bagel">Bagel</string>
+    <string name="bun">Bun</string>
+    <string name="egg">Egg</string>
+    <string name="cress">Cress</string>
+    <string name="salt">Salt</string>
+    <string name="action_cancel_text">Cancel</string>
 </resources>
