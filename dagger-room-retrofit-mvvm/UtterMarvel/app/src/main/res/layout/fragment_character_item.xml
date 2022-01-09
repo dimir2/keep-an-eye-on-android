@@ -13,11 +13,11 @@
             android:id="@+id/ivItemImage"
             android:layout_width="match_parent"
             android:scaleType="centerCrop"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/zero_dp"
             android:layout_weight="4" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/tvItemTitle"
+            android:id="@+id/tvItemName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"

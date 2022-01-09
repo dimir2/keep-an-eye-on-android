@@ -4,4 +4,5 @@
     <string name="marvel_saved_characters">Saved Characters</string>
     <string name="marvel_comics">Comics</string>
     <string name="marvel_saved_comics">Saved Comics</string>
+    <string name="search_hint">Search...</string>
 </resources>

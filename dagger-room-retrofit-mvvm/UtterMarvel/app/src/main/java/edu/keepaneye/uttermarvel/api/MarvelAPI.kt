@@ -11,7 +11,7 @@ import retrofit2.http.Query
 interface MarvelAPI {
 
     @GET("/v1/public/characters")
-    suspend fun getCharacterList(
+    suspend fun getCharactersList(
         @Query (value = "ts")
         timestamp: String = Constants.timestamp,
         @Query (value = "apikey")

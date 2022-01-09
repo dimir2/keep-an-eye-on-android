@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/marvel_nav_graph"
     app:startDestination="@id/marvelCharactersFragment">
 
@@ -55,9 +56,17 @@
     <fragment
         android:id="@+id/marvelCharacterItemFragment"
         android:name="edu.keepaneye.uttermarvel.ui.fragments.MarvelCharacterItemFragment"
-        android:label="MarvelCharacterItemFragment" />
+        android:label="MarvelCharacterItemFragment" >
+        <argument
+            android:name="character"
+            app:argType="edu.keepaneye.uttermarvel.model.CharacterItem" />
+    </fragment>
     <fragment
         android:id="@+id/marvelComicsItemFragment"
         android:name="edu.keepaneye.uttermarvel.ui.fragments.MarvelComicsItemFragment"
-        android:label="MarvelComicsItemFragment" />
+        android:label="MarvelComicsItemFragment" >
+        <argument
+            android:name="comics"
+            app:argType="edu.keepaneye.uttermarvel.model.ComicsItem" />
+    </fragment>
 </navigation>

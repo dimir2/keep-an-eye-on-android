@@ -2,20 +2,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/marvelCharactersFragment"
-        android:icon="@drawable/ic_favorite"
+        android:icon="@drawable/ic_character"
         android:title="@string/marvel_characters" />
     <item
         android:id="@+id/marvelSavedCharactersFragment"
-        android:icon="@drawable/ic_favorite"
+        android:icon="@drawable/ic_character_selected"
         android:title="@string/marvel_saved_characters" />
 
     <item
         android:id="@+id/marvelComicsFragment"
-        android:icon="@drawable/ic_favorite"
+        android:icon="@drawable/ic_comic"
         android:title="@string/marvel_comics" />
 
     <item
         android:id="@+id/marvelSavedComicsFragment"
-        android:icon="@drawable/ic_favorite"
+        android:icon="@drawable/ic_comic_selected"
         android:title="@string/marvel_saved_comics" />
 </menu>

@@ -13,6 +13,7 @@ class Constants {
         const val PRIVATE_KEY = BuildConfig.MARVEL_PRIVATE_KEY
         const val BASE_URL = BuildConfig.BASE_URL
         const val HASH_ALGORITHM = "MD5"
+        const val SEARCH_DELAY = 500L
 
         fun hash(): String {
             val secret = "$timestamp$PRIVATE_KEY$API_KEY"
