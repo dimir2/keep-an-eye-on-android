@@ -13,5 +13,5 @@ interface CharacterDao {
     fun getAllCharacters(): LiveData<List<CharacterItem>>
 
     @Delete
-    suspend fun deleteCharacter(character: CharacterItem)
+    suspend fun delete(character: CharacterItem)
 }

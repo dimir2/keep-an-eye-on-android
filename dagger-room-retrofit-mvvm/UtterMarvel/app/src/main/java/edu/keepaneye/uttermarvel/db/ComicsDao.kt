@@ -14,5 +14,5 @@ interface ComicsDao {
     fun getAllComics(): LiveData<List<ComicsItem>>
 
     @Delete
-    suspend fun deleteCharacter(comics: ComicsItem)
+    suspend fun delete(comics: ComicsItem)
 }
